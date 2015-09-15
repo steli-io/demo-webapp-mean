@@ -1,0 +1,24 @@
+{
+  "name": "webapp-mongo",
+  "version": "1.0.0",
+  "authors": [
+    "Stephan Linsmeier <sl@steli.io>"
+  ],
+  "description": "Web Applikation mit MongoDB",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-i18n": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "bootstrap": "~3.3.5",
+    "d3": "~3.5.6"
+  }
+}

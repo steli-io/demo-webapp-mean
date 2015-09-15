@@ -1,0 +1,12 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='public/lib/bootstrap/dist/css/bootstrap.min.css')
+        title steli.io
+    body(ng-app='demoApp')
+        div(ng-view)
+        script(src='public/lib/angular/angular.min.js')
+        script(src='public/lib/angular-route/angular-route.min.js')
+        script(src='public/app.js')
