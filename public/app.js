@@ -18,7 +18,6 @@ demoApp.controller('DemoController', function ($scope, $http) {
     $scope.users = [];
 
     function init() {
-        //$scope.users.push({name: 'steli'});
         $http.get('/api/listUsers').
             success (function (users) {
                 $scope.users = users;

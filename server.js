@@ -21,7 +21,7 @@ var mongoose = require('mongoose');
 var app = require('./config/express')();
 
 // Start the app by listening on <port>
-app.listen(3000);
+app.listen(8080);
 
 // Logging initialization
-console.log('MEAN.JS application started on port ' + '3000');
+console.log('MEAN.JS application started on port ' + '8080');
