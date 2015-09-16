@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stephan Linsmeier <sl@steli.io>",
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
